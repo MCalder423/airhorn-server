@@ -1,0 +1,16 @@
+{
+  "name": "airhorn-server",
+  "version": "1.0.0",
+  "description": "Audio environment controller for model railroads.",
+  "main": "index.js",
+  "repository": "https://github.com/MCalder423/airhorn-server",
+  "author": "Marc Calder <marc.calder@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "hapi": "^17.8.1",
+    "hapi-pino": "^5.2.0"
+  }
+}
